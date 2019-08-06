@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "363265532979",
+    "firebase_url": "https://cookoff-73ccf.firebaseio.com",
+    "project_id": "cookoff-73ccf",
+    "storage_bucket": "cookoff-73ccf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:363265532979:android:3824d5eeab471ca2",
+        "android_client_info": {
+          "package_name": "com.example.cookoff"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "363265532979-l8ikj6sn3dah47vttr81ojoj5n3kpbt0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cookoff",
+            "certificate_hash": "c0a68339500226677e12958ef4e8ec1fc78f5e39"
+          }
+        },
+        {
+          "client_id": "363265532979-2qu2k836q21amcl7qr54mbk7543n3phd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByy7rSRPmQb6p8psTI-fSNFCszAixkiDw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "363265532979-2qu2k836q21amcl7qr54mbk7543n3phd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

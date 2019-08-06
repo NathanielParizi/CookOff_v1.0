@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CookOff</string>
+    <string name="emailInput">Email</string>
+    <string name="logInBtn">Log In</string>
+    <string name="signUpBtn">Sign Up</string>
+    <string name="passwordInput"></string>
+    <string name="password">Password</string>
+    <string name="action_search_text">Search</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="logout">Logout</string>
+    <string name="registerBtn">Create New Account</string>
+    <string name="regConfirmPassword">Confirm Password</string>
+</resources>
