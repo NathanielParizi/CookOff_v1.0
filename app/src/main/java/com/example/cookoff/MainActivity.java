@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
 
         mAuth = FirebaseAuth.getInstance();
 
+
     }
 
 
@@ -57,6 +58,12 @@ public class MainActivity extends AppCompatActivity {
             case R.id.logout:
 
                 logOut();
+                return true;
+
+            case R.id.accountsettingsBtn:
+
+                Intent settingsIntent = new Intent(MainActivity.this, CreateActivity.class);
+                startActivity(settingsIntent);
                 return true;
 
 

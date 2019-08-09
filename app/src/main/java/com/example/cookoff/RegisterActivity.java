@@ -36,8 +36,8 @@ public class RegisterActivity extends AppCompatActivity {
 
         regEmail = (EditText) findViewById(R.id.emailInput);
         regPassword = (EditText) findViewById(R.id.passwordInput);
-        regConfirmPassword = (EditText) findViewById(R.id.confirmPassword);
-        regBtn = (Button) findViewById(R.id.registerBtn);
+        regConfirmPassword = (EditText) findViewById(R.id.confirmPasswordInput);
+        regBtn = (Button) findViewById(R.id.regBtn);
         progbar = (ProgressBar) findViewById(R.id.progressBar);
 
 
@@ -106,7 +106,7 @@ public class RegisterActivity extends AppCompatActivity {
     }
 
     private void sendtoMain() {
-        Intent mainIntent = new Intent(RegisterActivity.this, MainActivity.class);
+        Intent mainIntent = new Intent(RegisterActivity.this, CreateActivity.class);
         startActivity(mainIntent);
         finish();
     }
